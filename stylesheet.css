@@ -1,0 +1,40 @@
+H1{
+    color:red;
+    font-size: 20px;
+}
+
+H2{
+    color:blueviolet;
+    font-size: 14px;
+}
+
+header {
+    background: rgba(149, 213, 252, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #575656;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #e8fbff;
+  }
